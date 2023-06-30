@@ -1,0 +1,27 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.form {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  row-gap: 16px;
+}
+
+.inputs-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: start;
+  row-gap: 8px;
+
+  grid-column: 1;
+  grid-column-end: 4;
+}
+
+.submit-button {
+  grid-column: 3;
+  grid-column-end: 4;
+}
